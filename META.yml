@@ -1,0 +1,40 @@
+---
+abstract: 'A Task module for DWIM Perl L<http://dwimperl.com/>'
+author:
+  - 'Gabor Szabo <szabgab@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DWIM-DistZilla
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Dist::CheckConflicts: 0.02
+  Dist::Zilla: 4.300028
+  Dist::Zilla::Plugin::AutoPrereqs: 0
+  Dist::Zilla::Plugin::Bugtracker: 0
+  Dist::Zilla::Plugin::Git::Tag: 0
+  Dist::Zilla::Plugin::InstallGuide: 0
+  Dist::Zilla::Plugin::ModuleBuild: 0
+  Dist::Zilla::Plugin::PkgVersion: 0
+  Dist::Zilla::Plugin::PodVersion: 0
+  Dist::Zilla::Plugin::PruneFiles: 0
+  Dist::Zilla::Plugin::Repository: 0
+  Dist::Zilla::Plugin::Signature: 0
+  Dist::Zilla::Plugin::Test::Perl::Critic: 0
+  Dist::Zilla::PluginBundle::Basic: 0
+  perl: 5.008
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/dwimperl/Task-DWIM
+version: 0.06
